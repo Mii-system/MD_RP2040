@@ -6,10 +6,10 @@
 -   MC510238_MD_RP2040.pdf
 ## SRC: Sample Sorce & Manuals
 - RP2040
--   MD_RP2040
--   MD_RP2040PWM         Only PWM Mode
+- -  MD_RP2040            : Full Functions
+- -  MD_RP2040PWM         : Only PWM Mode
 - Python
--   MD_RP2040            Python sample
+- -  MD_RP2040            : Python sample
 
 # Arduino setting
 ##   Version
@@ -23,5 +23,8 @@
 -   #include <INA226.h><br>https://github.com/RobTillaart/INA226
 -   #include <ModbusRTU.h><br>https://github.com/emelianov/modbus-esp8266
 -   #include "pio_encoder.h"<br>https://github.com/gbr1/rp2040-encoder-library
+-
+-   import minimalmodbus<br>pip install minimalmodbus
+   
 
 <br><br>
